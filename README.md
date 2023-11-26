@@ -2,9 +2,21 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, json watcher for data:
 
 ```bash
+sudo npm install json-server -g
+yarn
+#or
+npm i
+#or
+npm install
+
+```
+Seccond, run the development server:
+
+```bash
+json-server --watch --port 4000 ./data/db.json
 npm run dev
 # or
 yarn dev
